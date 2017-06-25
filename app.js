@@ -4,6 +4,10 @@ var express = require('express');
 var app = express();
 app.set('view engine', 'ejs');
 
+var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 // Tell express where to find static assets
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'public')));
@@ -19,6 +23,7 @@ app.get('/gallery',routes.gallery);
 app.get('/videos',routes.videos);
 app.get('/sponsors',routes.sponsors);
 app.get('/ca',routes.ca);
+app.post('/contactform',routes.contactform);
 app.get('*', routes.not_found);
 
 // Configure server to run on port 3000
