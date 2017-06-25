@@ -163,7 +163,7 @@ footer .social-media-icons a:first-child:hover i {
 float:left;
 height:40px;
 width:40px;
-} 
+}
 
 
 
@@ -387,7 +387,7 @@ Media Queries / Responsive Styles
 	.navbar-nav .open .dropdown-menu {
 		position: absolute;
 		margin-left: -100px;
-		background-color: rgba(0,0,0,0.5);
+		background-color: white;
 	}
 
 }

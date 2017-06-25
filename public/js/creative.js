@@ -11,7 +11,7 @@
     });
 
     // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
+  /*  $('body').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51
     });
@@ -26,7 +26,7 @@
         offset: {
             top: 100
         }
-    })
+    })*/
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
