@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-	<div class="container">
+	<div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -26,9 +26,9 @@
 
 					<ul class="dropdown-menu">
 						<% for (var x = 0; x < events.length; x++) { %>
-							<li>
-								<a href="/event/<%= events[x].episode_number %>" class="episode_link">
-									<%= events[x].title %>
+							<li class="list-group-item center-block">
+								<a href="/event/<%= events[x].episode_number %>"><span class="network-name">
+									<%= events[x].title %></span>
 								</a>
 							</li>
 							<% } %>
@@ -38,12 +38,12 @@
 				<li class="dropdown">
 					<a href "#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">Archives <i class="fa fa-chevron-down"></i></a>
 
-					<ul class="dropdown-menu">
-							<li>
-								<a href="/gallery" class="episode_link">Gallery</a>
+					<ul class="dropdown-menu" style="float:right">
+							<li class="list-group-item pull-right">
+								<a href="/gallery"><span class="network-name">&nbsp;Gallery&nbsp;</span></a>
 							</li>
-							<li>
-								<a href="/videos" class="episode_link">Speeches</a>
+							<li class="list-group-item pull-right">
+								<a href="/videos"><span class="network-name">Speeches</span></a>
 							</li>
 					</ul>
 				</li>
