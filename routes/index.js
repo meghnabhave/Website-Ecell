@@ -102,8 +102,8 @@ exports.contactform = function(request, response) {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'ecellvnit2k17@gmail.com',
-      pass: 'jacksparrow1'
+      user: 'noreply@ecellvnit.org',
+      pass: 'Despacito1234!'
     }
   });
 
