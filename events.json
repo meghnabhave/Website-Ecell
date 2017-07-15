@@ -4,7 +4,7 @@
     "episode_number" : "1",
     "events" : [],
     "description" : "All aboard the voyage that is E-cell, that is ready to take over the winds of technical brute hitting against the forces of business acumen. Flagship will be the inaugural fresco of VNIT’s Entrepreneurship cell bringing to you three diverse intellectuals: A businessman, a technologist and a writer, speaking to empower today’s youth and running talent alike.",
-    "poster" : "star_wars_episode_1_poster.png",
+    "poster" : "Flagship.png",
     "hero_image" : "flagship_hero.jpg"
   },
 
@@ -22,8 +22,8 @@
     "episode_number" : "3",
     "events" : [{"name":"Pitch Perfect","description":"Speak"},{"name":"Swades","description":"Village"},{"name":"Ascent","description":"BPlan"},{"name":"Bizmantra","description":"Sell"}],
     "description" : "Consortium is the Annual Entrepreneurship Summit of VNIT Nagpur comprising of events like Pitch Perfect, Bizmantra and Swades. The summit aims at fueling entrepreneurial attitude amongst students through healthy competition and exciting challenges. It fosters the importance of leadership and decision making and introduces young technocrats to various management practices in the corporate world.",
-    "poster" : "star_wars_episode_3_poster.png",
-    "hero_image" : "star_wars_episode_3_hero.jpg"
+    "poster" : "logo.png",
+    "hero_image" : "homepage.png"
   },
 
   {
