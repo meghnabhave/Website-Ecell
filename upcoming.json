@@ -25,7 +25,7 @@
 				"time": "21.30"
 			},
 			"location": "Nagpur",
-			"url": "http://localhost:3000/gallery",
+			"url": "http://trial1.ecellvnit.org/gallery",
 			"color": "yellow"
 		},
     {
@@ -39,7 +39,7 @@
 				"time": "18.00"
 			},
 			"location": "Nagpur",
-			"url": "http://localhost:3000/event/2",
+			"url": "http://trial1.ecellvnit.org/event/2",
 			"color": "yellow"
 		}
 	]
