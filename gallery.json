@@ -1,6 +1,101 @@
 {
   "images": [
-
+    {
+      "image" : "flagship_17_1.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_2.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_3.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_4.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_5.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_6.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_7.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_8.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_9.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_10.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_11.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "flagship_17_12.jpg",
+      "description" : "Flagship'17 Highlights"
+    },
+    {
+      "image" : "workshop_1_1.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_2.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_3.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_4.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_5.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_6.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_7.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_8.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_9.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_10.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_11.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
+    {
+      "image" : "workshop_1_12.JPG",
+      "description" : "Data Science Workshop Highlights"
+    },
   {
     "image" : "conso_17_1.jpg",
     "description" : "Consortium'17 Memories"

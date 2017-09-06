@@ -3,7 +3,7 @@
     "title" : "Flagship",
     "episode_number" : "1",
     "events" : [],
-    "description" : "All aboard the voyage that is E-cell, that is ready to take over the winds of technical brute hitting against the forces of business acumen. Flagship will be the inaugural fresco of VNIT’s Entrepreneurship cell bringing to you three diverse intellectuals: A businessman, a technologist and a writer, speaking to empower today’s youth and running talent alike.",
+    "description" : "All aboard the voyage that is E-cell, which is ready to take over the winds of technical brute hitting against the forces of business acumen. Flagship the inaugural fresco of VNIT’s Entrepreneurship cell- brings to you three diverse intellectuals: A businessman, a technologist and a writer, speaking to empower today’s youth and running talent alike.",
     "poster" : "Flagship.png",
     "hero_image" : "flagship_hero.jpg"
   },
@@ -13,15 +13,18 @@
     "episode_number" : "2",
     "events" : [],
     "description" : "In this age of innovation, making lemonade out of life's lemons is outdated, not to mention clichéd. ‘Jugaad!’ is a one-of a kind event where your ideas run WILD! All we want is a team of four capitalizing on a hundred rupee note (now, that’s your lemon!). Flaunt those skills which we Indians take pride in. Venture out in the sun. Be a Jugaadu!",
-    "poster" : "star_wars_episode_2_poster.png",
+    "poster" : "jugaad_poster.jpg",
     "hero_image" : "star_wars_episode_2_hero.jpg"
   },
 
   {
     "title" : "Consortium",
     "episode_number" : "3",
-    "events" : [{"name":"Pitch Perfect","description":"Speak"},{"name":"Swades","description":"Village"},{"name":"Ascent","description":"BPlan"},{"name":"Bizmantra","description":"Sell"}],
-    "description" : "Consortium is the Annual Entrepreneurship Summit of VNIT Nagpur comprising of events like Pitch Perfect, Bizmantra and Swades. The summit aims at fueling entrepreneurial attitude amongst students through healthy competition and exciting challenges. It fosters the importance of leadership and decision making and introduces young technocrats to various management practices in the corporate world.",
+    "events" :[{"name":"Ascent","description":"‘Ascent’, the annual B-plan competition of Consortium is one of the most happening events in the conference. The B-Plans will be mentored prior to the pitching so that participants have an advantage in front of the investors. With CIVN as an active body in the college, we aim to incubate the B-Plans and mentor them to execution."},
+{"name":"Swades","description":"It is an event on how to improve the business opportunities in rural areas. Participants are expected to study the cases of rural areas and suggest feasible ideas which can directly be implemented for development of entrepreneurial opportunities in those areas. Teams will be judged by the originality, scale and intensity of their case studies."},
+{"name":"CEO","description":"This event captures the various turmoils of being a CEO through three trials: CRISIS, where the participants are put in a crisis situation and they have to find their way out; CORPWARS, where participants must manage the corporate politics at their company and address a press conference in the final round of the event and finally HRM, where participants are required to recruit the right people for their company."},
+{"name":"Startup Conclave","description":"Start-up Conclave provides a platform for innovative startups from all over the country to get in touch with students and investors. The startups would present their products/services during Consortium. It also provides an opportunity for the attendees to learn about the new entrepreneurial techniques that startups have used to become successful in their journey. It will serve as a platform for motivation and valuable learning for aspiring entrepreneurs which will surely propel their start-up career." }],
+    "description" : "Welcome to the extravagenza that is Consortium!\n\n\nConsortium, the Annual Entrepreneurship Summit of VNIT Nagpur comprises of invigorating events like Ascent, Startup Conclave and Swades. The summit aims at fueling entrepreneurial attitude amongst students through healthy competition and exciting challenges. It fosters the importance of leadership and decision making and introduces young technocrats to various management practices in the corporate world.",
     "poster" : "logo.png",
     "hero_image" : "homepage.png"
   },
@@ -31,7 +34,7 @@
     "episode_number" : "4",
     "events" : [],
     "description" : "Want to know what this start-up boom is all about? You are curious enough to admit wondering how start-ups well... start, and would go one step further to imagine being at the apex of your own. Here’s your redemption! 54 hours, a floor of rivals all rushing with their strategies and productizing potential, developing a fully functional startup and feeling the thrill of the industrial revolution at their very fingertips, this is where you could be. The buck stops here, with an experience of a B-time!",
-    "poster" : "star_wars_episode_4_poster.png",
+    "poster" : "SW_poster.png",
     "hero_image" : "star_wars_episode_4_hero.jpg"
   }
 ]

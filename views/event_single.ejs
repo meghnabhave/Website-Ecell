@@ -1,10 +1,5 @@
 <% include partials/head.ejs %>
 
-<div id="hero-image-single" style="background-image: url('/images/<%= event.hero_image %>')">
-	<h1 id="hero-title"><%= title %></h1>
-</div>
-
-
 	<div class="content-padding clearfix">
 		<div class="poster-wrapper">
 			<img src="/images/<%= event.poster %>" alt="<%= event.title %>" class="img-responsive" />
@@ -12,7 +7,7 @@
 
 		<div class="description-wrapper">
 			<div class="description">
-				<h2 class="event-header">Description</h2>
+				<h2 class="event-header"><%= event.title %></h2>
 				<p>
 					<%= event.description %>
 				</p>
@@ -24,7 +19,7 @@
 				<ul>
 					<% for (var x = 0; x < event.events.length; x++) { %>
 						<li>
-							<strong><%= event.events[x].name %></strong> : <%= event.events[x].description %>
+							<h4><%= event.events[x].name %></h4> <p><%= event.events[x].description %></p>
 						</li>
 						<% } %>
 				</ul>
