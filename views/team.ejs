@@ -3,11 +3,12 @@
   <div class="container page-wrapper">
     <div class="page-header">
       <center>
-        <h1>Our Amazing Team</h1></center>
+        <h1>Our Team</h1></center>
     </div><br>
     <div class="row row-centered">
       <div class="page-header">
-        <center><h2>President</h2></center>
+        <center>
+          <h2>President</h2></center>
       </div>
       <% var i; %>
         <% for (i = 0; i < 1; i++) { %>
@@ -17,7 +18,7 @@
               <div class="container">
                 <h2><%= team[i].name %></h2>
                 <p class="title">
-                  <%= team[i].position %>
+                  <%= team[i].position %><br><%= team[i].mobile %>
                 </p>
                 <ul class="list-inline social-buttons">
                   <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
@@ -29,7 +30,8 @@
     </div>
     <div class="row row-centered">
       <div class="page-header">
-        <center><h2>Treasurer</h2></center>
+        <center>
+          <h2>Treasurer</h2></center>
       </div>
       <% for (; i < 2; i++) { %>
         <div class="col-md-4 col-centered">
@@ -38,7 +40,7 @@
             <div class="container">
               <h2><%= team[i].name %></h2>
               <p class="title">
-                <%= team[i].position %>
+                <%= team[i].position %><br><%= team[i].mobile %>
               </p>
               <ul class="list-inline social-buttons">
                 <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
@@ -46,72 +48,99 @@
             </div>
           </div>
         </div>
-        <% } %>
     </div>
-    <div class="row row-centered">
-      <div class="page-header">
-        <center><h2>Public Relations and Operations</h2></center>
+    <% } %>
+  </div>
+  <div class="row row-centered">
+    <div class="page-header">
+      <center>
+        <h2>Public Relations and Operations</h2></center>
+    </div>
+    <% for (; i < 4; i++) { %>
+      <div class="col-md-4 col-centered">
+        <div class="card">
+          <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
+          <div class="container">
+            <h2><%= team[i].name %></h2>
+            <p class="title">
+              <%= team[i].position %><br><%= team[i].mobile %>
+            </p>
+            <ul class="list-inline social-buttons">
+              <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <% for (; i < 5; i++) { %>
-        <div class="col-md-4 col-centered">
-          <div class="card">
-            <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
-            <div class="container">
-              <h2><%= team[i].name %></h2>
-              <p class="title">
-                <%= team[i].position %>
-              </p>
-              <ul class="list-inline social-buttons">
-                <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
-              </ul>
-            </div>
+      <% } %>
+  </div>
+  <div class="row row-centered">
+    <div class="page-header">
+      <center>
+        <h2>Corporate Relations</h2></center>
+    </div>
+    <% for (; i < 6; i++) { %>
+      <div class="col-md-4 col-centered">
+        <div class="card">
+          <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
+          <div class="container">
+            <h2><%= team[i].name %></h2>
+            <p class="title">
+              <%= team[i].position %><br><%= team[i].mobile %>
+            </p>
+            <ul class="list-inline social-buttons">
+              <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
+            </ul>
           </div>
         </div>
-        <% } %>
-    </div>
-    <div class="row row-centered">
-      <div class="page-header">
-        <center><h2>Corporate Relations</h2></center>
       </div>
-      <% for (; i < 7; i++) { %>
-        <div class="col-md-4 col-centered">
-          <div class="card">
-            <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
-            <div class="container">
-              <h2><%= team[i].name %></h2>
-              <p class="title">
-                <%= team[i].position %>
-              </p>
-              <ul class="list-inline social-buttons">
-                <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <% } %>
-    </div>
+      <% } %>
+  </div>
 
-    <div class="row row-centered">
-      <div class="page-header">
-        <center><h2>Events and Planning</h2></center>
-      </div>
-      <% for (; i < team.length; i++) { %>
-        <div class="col-md-4 col-centered">
-          <div class="card">
-            <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
-            <div class="container">
-              <h2><%= team[i].name %></h2>
-              <p class="title">
-                <%= team[i].position %>
-              </p>
-              <ul class="list-inline social-buttons">
-                <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
-              </ul>
-            </div>
+  <div class="row row-centered">
+    <div class="page-header">
+      <center>
+        <h2>Events and Planning</h2></center>
+    </div>
+    <% for (; i < 8; i++) { %>
+      <div class="col-md-4 col-centered">
+        <div class="card">
+          <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
+          <div class="container">
+            <h2><%= team[i].name %></h2>
+            <p class="title">
+              <%= team[i].position %><br><%= team[i].mobile %>
+            </p>
+            <ul class="list-inline social-buttons">
+              <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
+            </ul>
           </div>
         </div>
-        <% } %>
+      </div>
+      <% } %>
+  </div>
+
+  <div class="row row-centered">
+    <div class="page-header">
+      <center>
+        <h2>Technical and Web Team</h2></center>
     </div>
+    <% for (; i < team.length; i++) { %>
+      <div class="col-md-4 col-centered">
+        <div class="card">
+          <img src="/images/<%= team[i].image %>" alt="<%= team[i].name %>" style="width:100%">
+          <div class="container">
+            <h2><%= team[i].name %></h2>
+            <p class="title">
+              <%= team[i].position %><br><%= team[i].mobile %>
+            </p>
+            <ul class="list-inline social-buttons">
+              <li><a href="<%= team[i].linkedin %>"><i class="fa fa-linkedin"></i></a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <% } %>
+  </div>
   </div>
   </div>
   <style>
@@ -194,5 +223,6 @@
 
   <% include partials/footer.ejs %>
     <% include partials/scripts.ejs %>
-  </body>
-  </html>
+      </body>
+
+      </html>
