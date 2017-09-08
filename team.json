@@ -4,14 +4,14 @@
     "name" : "Shreyosi Dhali",
     "position" : "President",
     "linkedin" : "https://www.linkedin.com/in/shreyosi-dhali-b4ba33105/",
-    "image" : "/images/ipad.png",
+    "image" : "/images/team/shreyosi.jpg",
     "mobile":"+91 7057804983"
   },
   {
     "name" : "Farzan Shaikh",
     "position" : "Treasurer",
     "linkedin" : "https://www.linkedin.com/in/farzanshaikh/",
-    "image" : "/images/ipad.png",
+    "image" : "/images/team/farzan.jpg",
     "mobile":"+91 9561483304"
   },
   {
@@ -25,14 +25,14 @@
     "name" : "Mukul Parashar",
     "position" : "Public Relations and Operations",
     "linkedin" : "https://www.linkedin.com/in/mukul-parashar-b84831142/",
-    "image" : "/images/ipad.png",
+    "image" : "/images/team/mukul.jpg",
     "mobile": "+91 8600092897"
   },
   {
     "name" : "Brahmdutt Sharma",
     "position" : "Corporate Relations",
     "linkedin" : "#",
-    "image" : "/images/ipad.png",
+    "image" : "/images/team/brahma.jpg",
     "mobile": "+91 8561852461"
   },
 
@@ -55,7 +55,7 @@
     "name" : "Utkarsh Gupta",
     "position" : "Events and Planning",
     "linkedin" : "https://www.linkedin.com/in/utkarsh-gupta-708959113/",
-    "image" : "/images/ipad.png",
+    "image" : "/images/team/utkarsh.jpg",
     "mobile": "+91 7757931072"
   },
 
@@ -63,7 +63,7 @@
     "name" : "Vipul Wairagade",
     "position" : "Technical and Web Team",
     "linkedin" : "https://www.linkedin.com/in/vipul-wairagade-a6438b111/",
-    "image" : "/images/ipad.png",
+    "image" : "/images/team/vipul.JPG",
     "mobile": "+91 8275868277"
   }
 ]
